@@ -1,0 +1,37 @@
+/*
+ *
+ * MMM-AlexaTimer
+ *
+ * 
+ * MIT Licensed.
+ *
+ * Custom here your css module
+ *
+ */
+body {
+font-family: Skyfont;
+}
+
+.MMM-AlexaTimer .countdowntext {
+color: #ffffff;
+font-size: 100px;
+line-height: 80px;
+
+}
+.MMM-AlexaTimer .countuptext {
+color: #FF0000;
+font-size: 100px;
+line-height: 80px;
+
+}
+
+.MMM-AlexaTimer .countdowntime {
+color: #ffffff;
+font-size: 100px;
+line-height: 80px;
+}
+.MMM-AlexaTimer .countuptime {
+color: #FF0000;
+font-size: 100px;
+line-height: 80px;
+}
