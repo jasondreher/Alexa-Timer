@@ -24,5 +24,5 @@ This sends the timer info to HomeAssistant via MQTT. The below senors are needed
     alexatimermessage66:
       value_template: "http://192.168.0.110:8090/syslog?type=INFO&message=TimeChange.{{states('sensor.alexatimername')}}.{{states('sensor.alexatimertime')}}.{{states('sensor.alexatimerct')}}&silent=true"
 ````
-The alexatimermessage66 sends the info to the magic mirror to display the time.
+The alexatimermessage66 sends the info to the magic mirror to display the time. Change the IP address of 192.168.0.110:8090 to your mirror.
 
